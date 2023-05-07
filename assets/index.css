@@ -33,7 +33,7 @@ body {
 }
 
 .comingSoon {
-    font-size: 32px;
+    font-size: 48px;
     font-family: "Noto-Sans";
     font-weight: 700;
     text-align: center;
@@ -64,7 +64,7 @@ body {
 
 .disappear {
     animation-name: disappear;
-    animation-duration: 1.5s;
+    animation-duration: 2s;
     opacity: 0;
 }
 
