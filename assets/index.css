@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "Noto-Sans";
+    src: url("./fonts/NotoSans-Regular.ttf");
+}
+@font-face {
+    font-family: "Noto-Sans";
+    src: url("./fonts/NotoSans-Regular.ttf");
+    font-weight: 600;
+}
+@font-face {
+    font-family: "Noto-Sans";
+    src: url("./fonts/NotoSans-SemiBold.ttf");
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Noto-Sans";
+    src: url("./fonts/NotoSans-Bold.ttf");
+    font-weight: bold;
+}
+
+body {
+    background-color: #0c0c0c;
+    color: white;
+}
+
+.comingSoonElement {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    bottom: 0;
+}
+
+.comingSoon {
+    font-size: 32px;
+    font-family: "Noto-Sans";
+    font-weight: 700;
+    text-align: center;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.appear {
+    animation-name: appear;
+    animation-duration: 1s;
+}
+
+@keyframes disappear {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.disappear {
+    animation-name: disappear;
+    animation-duration: 1.5s;
+    opacity: 0;
+}
+
+.disappearSlow {
+    animation-name: disappear;
+    animation-duration: 2s;
+    opacity: 0;
+}
