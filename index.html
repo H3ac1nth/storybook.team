@@ -14,22 +14,26 @@
         <title>Storybook Studios - Coming soon</title>
         
         <link rel="stylesheet" href="./assets/index.css">
-        <link rel="icon" href="./assets/icon.png" />
+        <link rel="icon" href="./assets/icon_white.png" />
     </head>
     <body>
         <div class="comingSoonElement" id="text">
             <div class="comingSoon appear" id="comingSoon"></div>
         </div>
+        <video id="logoVideo" loop muted style="opacity: 0; position: fixed; width: 100%; height: 100%;">
+            <source src="./assets/background.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
         <div style="opacity: 0;" class="comingSoonElement" id="comingSoonElement">
-            <img class="logo" src="./assets/VectorSBSvec.png" height="96px" width="96px">
-            <div class="comingSoon" style="font-size: 40px;">Coming soon.</div>
+            <div style="height: 258px;" class="logo"></div>
+            <div style="opacity: 0;" class="comingSoon" id="comingSoonText">Coming soon.</div>
         </div>
         <div style="opacity: 0; display: none;" class="comingSoonElement" id="socials">
-            <a class="socials" href="https://discord.gg/cVDHeBNRt2">
-                <img style="border-radius: 6px;" src="./assets/discord.png" height="80px" width="80px">
+            <a class="socials" href="https://discord.gg/cVDHeBNRt2" style="margin-left: 38px;">
+                <img style="border-radius: 6px;" src="./assets/discord.png" height="48px" width="48px">
             </a>
-            <a class="socials" href="https://twitter.com/StorybookGames_">
-                <img style="border-radius: 6px;" src="./assets/twitter.png" height="80px" width="80px">
+            <a class="socials" href="https://twitter.com/StorybookGames_" style="margin-right: 38px;">
+                <img style="border-radius: 6px;" src="./assets/twitter.png" height="48px" width="48px">
             </a>
         </div>
         <script src="./assets/index.js"></script>
