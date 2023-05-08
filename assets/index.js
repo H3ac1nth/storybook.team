@@ -20,8 +20,8 @@ window.addEventListener(
         comingSoon.className = "comingSoonElement appear";
 
         const logoVideo = document.getElementById( "logoVideo" );
-        logoVideo.style = "position: fixed; width: 100%; height: 100%;";
-        logoVideo.className = "appear";
+        logoVideo.style = null;
+        logoVideo.className = "logoVideo appear";
         try {
             logoVideo.play();
         } catch(e) {
