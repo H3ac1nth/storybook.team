@@ -22,7 +22,11 @@ window.addEventListener(
         const logoVideo = document.getElementById( "logoVideo" );
         logoVideo.style = "position: fixed; width: 100%; height: 100%;";
         logoVideo.className = "appear";
-        logoVideo.play();
+        try {
+            logoVideo.play();
+        } catch(e) {
+            console.log(e);
+        };
 
         await new Promise((res) => setTimeout(() => res(), 0.5 * 1000));
         const comingSoonText = document.getElementById( "comingSoonText" );
